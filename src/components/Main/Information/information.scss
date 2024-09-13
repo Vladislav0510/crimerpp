@@ -1,0 +1,96 @@
+.information{
+  margin: 0 0 26px 0;
+}
+.information__container{
+  max-width: 1598px;
+}
+.information__body{
+  display: flex;
+
+
+}
+.information__column{
+  flex: 0 1 25%;
+  &:not(:last-child){
+    margin: 0 32px 0 0;
+  }
+  border-radius: 10px;
+  flex-direction: column;
+  display: flex;
+  background: rgba(0, 0, 0, 0.50);
+  padding: 39px 30px 6px 30px;
+
+}
+.information__item{}
+.item-information{
+}
+.item-information__account{
+  margin: 0 0 20px 0;
+}
+.account{}
+.account__body{
+  display: flex;
+  align-items: center;
+}
+.account__icon{
+  margin: 0 15px 0 0;
+  img{
+    width: 90px;
+    height: 90px;
+  }
+}
+.account__label{}
+.account__title{
+  color: #fff;
+  font-size: 18px;
+  line-height: 130%;
+  opacity: 0.3;
+}
+.account__subtitle{
+  font-size: 20px;
+  line-height: 130%;
+  color: #fff;
+}
+.account__nickname{}
+.account__position{
+  color: rgba(255, 255, 255, 0.30);
+}
+.item-information__advantages{}
+.advantages{}
+.advantages__item{
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+
+  background: rgba(255, 255, 255, 0.03);
+  &:not(:last-child){
+    margin: 0 0 6px 0;
+  }
+}
+.advantages__indicator{
+  color: #fff;
+  opacity: 0.3;
+}
+.advantages__meaning{
+  color: #fff;
+  font-weight: 400;
+}
+.immovables{}
+.immovables__title,.business__title{
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 120%;
+  margin:  0 0 20px 0;
+  text-align: center;
+}
+.immovables__image, .business__image{
+  margin: 0 0 15px 0;
+  img{
+    width: 100%;
+  }
+}
+

@@ -1,0 +1,98 @@
+.information {
+  margin: 0 0 26px 0;
+}
+
+.information__container {
+  max-width: 1598px;
+}
+
+.information__body {
+  display: flex;
+}
+
+.information__column {
+  flex: 0 1 25%;
+  border-radius: 10px;
+  flex-direction: column;
+  display: flex;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 39px 30px 6px 30px;
+}
+.information__column:not(:last-child) {
+  margin: 0 32px 0 0;
+}
+
+.item-information__account {
+  margin: 0 0 20px 0;
+}
+
+.account__body {
+  display: flex;
+  align-items: center;
+}
+
+.account__icon {
+  margin: 0 15px 0 0;
+}
+.account__icon img {
+  width: 90px;
+  height: 90px;
+}
+
+.account__title {
+  color: #fff;
+  font-size: 18px;
+  line-height: 130%;
+  opacity: 0.3;
+}
+
+.account__subtitle {
+  font-size: 20px;
+  line-height: 130%;
+  color: #fff;
+}
+
+.account__position {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.advantages__item {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.03);
+}
+.advantages__item:not(:last-child) {
+  margin: 0 0 6px 0;
+}
+
+.advantages__indicator {
+  color: #fff;
+  opacity: 0.3;
+}
+
+.advantages__meaning {
+  color: #fff;
+  font-weight: 400;
+}
+
+.immovables__title, .business__title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 120%;
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+.immovables__image, .business__image {
+  margin: 0 0 15px 0;
+}
+.immovables__image img, .business__image img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=information.css.map */

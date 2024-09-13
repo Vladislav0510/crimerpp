@@ -1,0 +1,12 @@
+<svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 5">
+<rect id="Rectangle 6" width="90" height="90" rx="8" fill="url(#paint0_linear_1132_113)"/>
+<path id="Vector" d="M45 22.5C38.4494 22.5 33.12 27.8227 33.12 34.3652C33.12 40.9077 38.4494 46.2305 45 46.2305C51.5506 46.2305 56.88 40.9077 56.88 34.3652C56.88 27.8227 51.5506 22.5 45 22.5ZM59.781 53.982C56.5285 50.6836 52.2168 48.8672 47.64 48.8672H42.36C37.7833 48.8672 33.4715 50.6836 30.219 53.982C26.9825 57.2642 25.2 61.5966 25.2 66.1816C25.2 66.9097 25.791 67.5 26.52 67.5H63.48C64.209 67.5 64.8 66.9097 64.8 66.1816C64.8 61.5966 63.0176 57.2642 59.781 53.982Z" fill="#0F0F0F"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1132_113" x1="0" y1="0" x2="90" y2="90" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D9D9D9"/>
+<stop offset="1" stop-color="#737373"/>
+</linearGradient>
+</defs>
+</svg>

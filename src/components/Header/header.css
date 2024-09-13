@@ -1,0 +1,43 @@
+.header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 50;
+  margin: 55px 0 69px 0;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 44px;
+  background-color: #646363;
+  border-radius: 5px;
+}
+.menu__item:not(:last-child) {
+  margin: 0 22px 0 0;
+}
+
+.menu__item_active {
+  background-color: #54DE43;
+}
+
+.menu__link {
+  color: #e3e3e3;
+  font-size: 16px;
+  line-height: 171%;
+}
+
+.menu__link_active {
+  color: #000;
+}
+
+/*# sourceMappingURL=header.css.map */
